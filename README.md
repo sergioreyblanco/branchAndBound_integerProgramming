@@ -13,6 +13,6 @@ The function takes as an input parameter a representation of a linear problem in
 
 Example "linear problem objects" (located in the last part of the code after the functions) are given, so you can test the function and create new similar objects. As these examples have objective functions of more than three variables, their representation in a 2 or 3 dimensional space is not possible. However, a graphical representation of the resolution of `example1` using this algorithm is shown here:
 
-![alt text](https://github.com/sergioreyblanco/branchAndBound_integerProgramming/blob/master/example1.PNG)
+![alt text](https://github.com/sergioreyblanco/branchAndBound_integerProgramming/blob/master/example1.png)
 
 The code needs one library to run, besides the classical R environment: `lpSolveAPI`. It can be installed like this: `install.packages("lpSolveAPI")` or `install.packages("lpSolveAPI")` (choose the form that best suits your needs). And then loaded as follows: `library(lpSolveAPI)`.
